@@ -13,10 +13,7 @@ import java.math.BigDecimal;
 @Setter
 @NoArgsConstructor
 
-public class Balance {
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
+public class Balance extends BaseEntity{
 
     private BigDecimal amount;
 
